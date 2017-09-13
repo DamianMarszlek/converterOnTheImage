@@ -1,0 +1,6 @@
+Mazda|3|ON|2.0|09.2007 -> 12.2008|105kW / 143KM|GH|RFT|MZR-CD 16V
+Mazdaaaa super bardzo fajna|6|ON|2.0|09.2007 -> 12.2008|105kW / 143KM|GH|RFT|MZR-CD 16V
+Mazda|6|95|2.0|09.2007 -> 12.2008|105kW / 143KM|GH|RFT|MZR-CD 16V
+Mazda|6|ON|2.0|09.2007 -> 12.2008|105kW / 143KM|GH|RFT|MZR-CD 16V
+Mazda|6|95|2.0|09.2007 -> 12.2008|105kW / 143KM|GH|RFT|Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Mazda|7|on|2.0|09.2007 -> 12.2008|105kW / 143KM|GH|RFT|MZR-CD 16V
