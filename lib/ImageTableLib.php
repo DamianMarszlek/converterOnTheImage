@@ -18,7 +18,7 @@
 
  	private $_padding;
 
-    private $_fuelIcon;
+	private $_fuelIcon;
  	private $_waterMarkImage = './img/bg.png';
 
 	/**
