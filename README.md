@@ -1,4 +1,4 @@
-# converterToeImage
+# converterToImage
 Zadanie rekrutacyjne - Navifleet
 
 Konwerter danych do pliku graficznego
