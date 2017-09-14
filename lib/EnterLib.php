@@ -13,7 +13,7 @@
 
 	/**
 	* @param $source
-	* @param $delimiter
+	* @param $delimiter - separator kolumn
 	*/
  	public function __construct($source, $delimiter){
  		$this->_source = $source;
