@@ -38,10 +38,10 @@
  		$this->_imageWidth = $this->setImageWidth();
  		$this->_imageHeight = $this->setImageHeigth($input);
 
-        $this->_fuelIcon = array(
-            'on' => './img/on_icon.jpg',
-            '95' => './img/95_icon.jpg'
-        );
+		$this->_fuelIcon = array(
+			'on' => './img/on_icon.jpg',
+			'95' => './img/95_icon.jpg'
+		);
  	}
 
 	/**
