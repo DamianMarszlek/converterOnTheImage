@@ -22,6 +22,18 @@ Podpunkt pierwszy wspomina o kolumnie 'Uwagi' która w zaprezentowanym podgl¹dzie
 
 Podpunkt drugi zadania by³ tematem mojego zapytania do Pañstwa lecz pozosta³ bez odpowiedzi, dlatego ikonê paliwa generujê jako integralna czêœæ obrazu, poniewa¿ w sytuacji gdy u¿ytkownik kliknie PPM->zapisz obrazek jako... obraz zostanie zapisany w pe³ni kompletny podczas gdyby ikony benzyny wystêpowa³y w postaci obrazków osadzonych kodem html zapisany obraz nie zawiera³by wspomnianych ikon.
 
-Output dla rozmiaru czcionki 8 oraz domyœlnym paddingiem:
+#Output dla rozmiaru czcionki 8 i domyœlnym paddingiem:
 ![Output dla rozmiaru czcionki 8 oraz domyœlnym paddingiem:](https://github.com/DamianMarszlek/converterToImage/blob/master/img/output/example.png)
 
+# Opis dzia³ania skryptu
+ - odczyt z pliku danych wejœciowych
+ - analiza tekstu i wyliczanie szerokoœci oraz wysokoœci obrazu w zale¿noœci od rozmiaru czcionki i/lub paddingu
+ - generowanie i kolorowanie obrazu
+ - rysowanie oraz kolorowanie nag³ówka tabelki
+ - rysowanie linia po linii wierszy tabelki z odpowiednim ³amaniem tekstu
+    - konwersja tekstu pierwszej kolumny do wy³¹cznie drukowanych liter
+    - dodawanie ikony paliwa dla kolumny 3 (dwa typy danych wejœciowych ON/95) 
+ - rysowanie po ka¿dym wierszu linii oddzielaj¹cej
+ - na³o¿enie watermarka na wygenerowany obrazek
+ - render obrazu
+ - zwalnianie pamiêci
