@@ -30,8 +30,9 @@
  $oImageTable->drawRow($aImage, $inputArray, $blackColor, $blueColor);
 
  //dodanie watermarka
-  $oImageTable->setWatermark($aImage);
+ $oImageTable->setWatermark($aImage);
 
+ //Outputstream oraz sprzatanie
  header('Content-Type: image/png');
  imagepng($aImage);
  imagedestroy($aImage);

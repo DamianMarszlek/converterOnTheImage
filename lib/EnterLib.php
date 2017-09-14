@@ -11,18 +11,18 @@
  	private $_source;
  	private $_delimiter;
 
-	 /**
-	  * @param $source
-	  * @param $delimiter
-	  */
+	/**
+	* @param $source
+	* @param $delimiter
+	*/
  	public function __construct($source, $delimiter){
  		$this->_source = $source;
  		$this->_delimiter = $delimiter;
  	}
 
-	 /**
-	  * @return array|bool
-	  */
+	/**
+	* @return array|bool
+	*/
  	public function getSource(){
  		if ($file = fopen($this->_source, "r")) {
 		    $input = array();

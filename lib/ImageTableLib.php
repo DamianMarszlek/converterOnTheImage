@@ -214,14 +214,14 @@
 	* @param $positionY
 	*/
 	public function drawFuelIcon($image, $fuel,  $positionX, $positionY){
-	 $icon = imagecreatefromjpeg($this->_fuelIcon[strtolower($fuel)]);
-	 list($width, $height) = getimagesize($this->_fuelIcon[strtolower($fuel)]);
+		$icon = imagecreatefromjpeg($this->_fuelIcon[strtolower($fuel)]);
+	 	list($width, $height) = getimagesize($this->_fuelIcon[strtolower($fuel)]);
 
-	 imagecopy($image, $icon,
-	     $positionX - $width/2,
-	     $positionY + $this->_padding/2,
-	     0, 0, $width, $height
-	 );
+		 imagecopy($image, $icon,
+			 $positionX - $width/2,
+			 $positionY + $this->_padding/2,
+			 0, 0, $width, $height
+		 );
 	}
 
 	/**
